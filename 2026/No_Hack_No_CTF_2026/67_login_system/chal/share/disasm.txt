@@ -1,3 +1,0 @@
-
-chal:     formato del fichero elf64-x86-64
-

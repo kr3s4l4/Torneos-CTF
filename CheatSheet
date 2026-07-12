@@ -1,0 +1,48 @@
+cat > ~/CTF_NoHackNoCTF2026/Notas/comandos_utiles.txt << 'EOF'
+========== COMANDOS ÚTILES PARA CTF ==========
+
+=== WEB ===
+# Escanear directorios con gobuster
+gobuster dir -u http://<URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,txt
+
+=== CRIPTOGRAFÍA ===
+# Codificar/Decodificar Base64
+echo "cadena" | base64 -d
+echo "cadena" | base64
+
+# Identificar tipo de hash con hashid
+hashid "cadena_con_hash"
+
+=== FORENSE / ESTEGANOGRAFÍA ===
+# Extraer strings legibles de un binario
+strings archivo | grep -i flag
+
+# Ver metadatos de imagen
+exiftool imagen.jpg
+
+# Buscar archivos ocultos con binwalk
+binwalk -e archivo.bin
+
+# Extraer datos de imágenes con steghide (si tiene contraseña preguntará)
+steghide extract -sf imagen.jpg
+
+# Extraer datos de PNG con zsteg
+zsteg -a imagen.png
+
+=== REDES ===
+# Abrir Wireshark para analizar PCAP
+wireshark captura.pcap
+
+=== BINARIOS / REVERSE ===
+# Abrir Ghidra (después de instalarla)
+ghidra
+
+=== OTROS ===
+# Escuchar en un puerto (para recibir conexiones reverse)
+nc -lvnp <puerto>
+
+# Conectarse a un servicio remoto
+nc <IP> <puerto>
+EOF
+
+echo "¡Cheat sheet creado en ~/CTF_NoHackNoCTF2026/Notas/comandos_utiles.txt!"

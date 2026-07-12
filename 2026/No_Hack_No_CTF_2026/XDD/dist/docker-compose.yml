@@ -1,9 +1,0 @@
-services:
-  folio:
-    build: .
-    ports:
-      - "8080:8080"
-      - "8081:8081"
-    environment:
-      PRIVATE_RECEIPT: "NHNC{sample_receipt_goes_here}"
-      STAMP_DIFFICULTY: "5"
