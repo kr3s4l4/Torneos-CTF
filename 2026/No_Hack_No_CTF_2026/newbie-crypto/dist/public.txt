@@ -1,5 +1,0 @@
-name,seat
-hsuan0223x,H-0223
-NHNC,T-0704
-this_chal_not_need_read_read_read_read_read_read_read_read_read_read_read,N-0705
-AI_WILL_SLOP,C-114514
