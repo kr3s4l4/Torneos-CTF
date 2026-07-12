@@ -78,7 +78,7 @@
 
 ## 📸 Capturas
 
-![Ranking](images/ranking.png)
+![Ranking](images/2026_BroncoCTF.png)
 
 ## 📂 Writeups
 
