@@ -1,0 +1,9 @@
+services:
+  singen:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      FLAG: "NHNC{TEST_ME}"
+    volumes:
+      - ./data:/app/data

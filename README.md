@@ -6,7 +6,7 @@ Bienvenido a mi repositorio de torneos CTF.
 
 | Torneo | Fecha | Puesto | Puntos | Retos |
 |--------|-------|--------|--------|-------|
-| No Hacking No CTF 2026 | 4-6 jul | #112 | 879 | 6 |
+| [No Hacking No CTF 2026](2026/No_Hack_No_CTF_2026/) | 4-6 jul | #112 | 879 | 6 |
 | [BroncoCTF 2026](2026/BroncoCTF_2026/) | 11-12 jul | #336 | 178 | 8 |
 
 ## 📊 Estadísticas

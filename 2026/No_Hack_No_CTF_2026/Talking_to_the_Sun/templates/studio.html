@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}SinGen Studio{% endblock %}
+{% block content %}
+  <div class="topline">
+    <div>
+      <h1>SinGen Studio</h1>
+      <p class="subtitle">Signed in as {{ user["account"][:72] }}{% if user["account"]|length > 72 %}...{% endif %}</p>
+    </div>
+    <form method="post" action="{{ url_for('logout') }}">
+      <button type="submit" class="secondary">Sign out</button>
+    </form>
+  </div>
+
+  {% if line %}
+    <h2>Your generated line</h2>
+    <div class="result-box">{{ line["message"] }}</div>
+    <label for="token">Lyric key</label>
+    <textarea id="token" readonly>{{ line["token"] }}</textarea>
+    <div class="actions">
+      <a class="button-link" href="{{ url_for('verify_page') }}">Verify a lyric key</a>
+    </div>
+  {% else %}
+    <h2>Build a line</h2>
+    <form method="post" action="{{ url_for('generate') }}">
+      <div class="grid">
+        {% for key, values in options.items() %}
+          <div>
+            <label for="{{ key }}">{{ key|capitalize }}</label>
+            <select id="{{ key }}" name="{{ key }}">
+              {% for value in values %}
+                <option value="{{ loop.index0 }}">{{ value }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="actions">
+        <button type="submit">Gen API Key</button>
+      </div>
+    </form>
+  {% endif %}
+
+  <div class="target-line">
+    <span>Requested line</span>
+    <strong>{{ target_message }}</strong>
+  </div>
+{% endblock %}
