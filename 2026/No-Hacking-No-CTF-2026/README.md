@@ -13,12 +13,12 @@
 
 | Reto | Categoría | Puntos | Técnica | Writeup |
 |------|-----------|--------|---------|---------|
-| travel again | OSINT | 469 | Búsqueda visual + Google Earth | [Ver](./writeups/travel_again.txt) |
-| Kira-Notes | Forense | 100 | Carving forense (foremost) | [Ver](./writeups/Kira-Notes.txt) |
-| Final Boarding | OSINT | 100 | Metadatos EXIF + Flight tracking | [Ver](./writeups/Final_Boarding.txt) |
-| newbie-crypto | Crypto | 100 | Nonce Reuse (AES-CTR) | [Ver](./writeups/newbie-crypto.txt) |
-| Wotagei | OSINT | 100 | Búsqueda visual + Instagram | [Ver](./writeups/Wotagei.txt) |
-| Welcome | Bienvenida | 10 | Reto inicial | [Ver](./writeups/Welcome.txt) |
+| travel again | OSINT | 469 | Búsqueda visual + Google Earth | [Ver](./writeups/travel_again/README.md) |
+| Kira-Notes | Forense | 100 | Carving forense (foremost) | [Ver](./writeups/Kira-Notes/README.md) |
+| Final Boarding | OSINT | 100 | Metadatos EXIF + Flight tracking | [Ver](./writeups/Final_Boarding_481/README.md) |
+| newbie-crypto | Crypto | 100 | Nonce Reuse (AES-CTR) | [Ver](./writeups/newbie-crypto/README.md) |
+| Wotagei | OSINT | 100 | Búsqueda visual + Instagram | [Ver](./writeups/Wotagei/README.md) |
+| Welcome | Bienvenida | 10 | Reto inicial | [Ver](./writeups/Welcome/README.md) |
 
 ## 🛠️ Técnicas Utilizadas
 
@@ -74,9 +74,9 @@
 
 ## 📂 Writeups
 
-- [travel again](./writeups/travel_again.txt)
-- [Kira-Notes](./writeups/Kira-Notes.txt)
-- [Final Boarding](./writeups/Final_Boarding.txt)
-- [newbie-crypto](./writeups/newbie-crypto.txt)
-- [Wotagei](./writeups/Wotagei.txt)
-- [Welcome](./writeups/Welcome.txt)
+- [travel again](./writeups/travel_again/README.md)
+- [Kira-Notes](./writeups/Kira-Notes/README.md)
+- [Final Boarding](./writeups/Final_Boarding_481/README.md)
+- [newbie-crypto](./writeups/newbie-crypto/README.md)
+- [Wotagei](./writeups/Wotagei/README.md)
+- [Welcome](./writeups/Welcome/README.md)
