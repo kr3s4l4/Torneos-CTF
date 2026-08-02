@@ -6,8 +6,8 @@
 | **Modalidad** | Online |
 | **Organiza** | L3akCTF |
 | **Equipo** | kr3s4l4 (Captain) |
-| **Puesto** | #320 de 711 |
-| **Puntuación** | 202 pts |
+| **Puesto** | #318 de 709 |
+| **Puntuación** | 203 pts |
 
 ## 🚩 Retos Resueltos
 
@@ -15,7 +15,7 @@
 |------|-----------|--------|---------|---------|
 | Sanity Check | Beginner | 1 | Lectura de reglas del torneo | [Ver](writeups/Sanity_Check/README.md) |
 | Get The Flag | Web | 65 | Method override + CSRF bypass, cambio de contraseña de admin | [Ver](writeups/Get_The_Flag/README.md) |
-| CatVault - Part 1 | Web | 61 | Inyección SQL (UNION SELECT), manipulación de sesión vía API | [Ver](writeups/catvault-part1/README.md) |
+| CatVault - Part 1 | Web | 62 | Inyección SQL (UNION SELECT), manipulación de sesión vía API | [Ver](writeups/catvault-part1/README.md) |
 | Zebda | Web | 75 | Bypass de parsers YAML (js-yaml vs PyYAML), ofuscación Unicode | [Ver](writeups/Zebda/README.md) |
 
 ## 🛠️ Técnicas Utilizadas
@@ -32,7 +32,7 @@
 | Categoría | Retos | Puntos |
 |-----------|-------|--------|
 | Beginner | 1 | 1 |
-| Web | 3 | 201 |
+| Web | 3 | 202 |
 | **Total** | **4** | **200** |
 
 ## 📈 Progreso Temporal
@@ -42,7 +42,7 @@
 | 1 ago | --:-- | Sanity Check | 1 |
 | 1 ago | --:-- | Get The Flag | 65 |
 | 1 ago | --:-- | Zebda | 75 |
-| 2 ago | --:-- | CatVault - Part 1 | 61 |
+| 2 ago | --:-- | CatVault - Part 1 | 62 |
 
 ## 🛠️ Herramientas Utilizadas
 
